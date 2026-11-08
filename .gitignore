@@ -22,3 +22,4 @@ android/.idea/
 android/keystore.properties
 android/kkaeum-release.jks
 android/.kotlin/
+web/public/3d/renders/*.png
