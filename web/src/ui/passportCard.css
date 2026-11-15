@@ -416,3 +416,8 @@
   mix-blend-mode: screen;
   border-radius: 0.6cqw;
 }
+
+/* chain or mileage check failed without a staged tamper: no seal until the record verifies */
+.vp.is-unverified .vp-seal {
+  opacity: 0;
+}

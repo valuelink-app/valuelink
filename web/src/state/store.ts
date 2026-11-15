@@ -122,7 +122,8 @@ export const useStore = create<Store>((set, get) => ({
     if (!rt) return
     const s = rt.bus.read()
     const soh = s.batteryCapWh && s.batteryDesignWh ? (100 * s.batteryCapWh) / s.batteryDesignWh : 98
-    rt.seed(simHistory(s.t, Math.max(s.odometerKm ?? 0, 1), soh))
+    // a fresh emulator reports 0 km: build the history to that, so the next live block is not read as a rollback
+    rt.seed(simHistory(s.t, Math.max(s.odometerKm ?? 0, 0), soh))
   },
 }))
 

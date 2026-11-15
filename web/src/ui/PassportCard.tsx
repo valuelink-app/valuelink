@@ -135,7 +135,7 @@ export function PassportCard({ data, tamper = null, className = '' }: { data: Pa
   const t = Boolean(tamper)
   const vinShown = data.vin ?? '미확인'
   return (
-    <div className={`vp ${t ? 'is-void' : ''} ${className}`} role="group" aria-label="차량 여권">
+    <div className={`vp ${t ? 'is-void' : ''} ${!t && !data.ok ? 'is-unverified' : ''} ${className}`} role="group" aria-label="차량 여권">
       <div className="vp-page">
         <Guilloche />
         <div className="vp-holo" aria-hidden />
