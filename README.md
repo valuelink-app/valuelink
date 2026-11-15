@@ -5,7 +5,7 @@ Pleos Connect 위에서 차가 스스로 가치를 **지키고**, **증명하고
 
 - 웹 라이브 데모: https://valuelink-app.github.io/valuelink/ (랜딩 · `#/console` 시연 콘솔 · `#/car` 차량 앱 · `#/passport` 차량 여권 · `#/fleet` 플릿)
 - 시연 영상 (4분 50초): https://valuelink-app.github.io/valuelink/video/ (원본 파일: [`video/ValueLink_밸류링크_시연영상.mp4`](video/ValueLink_밸류링크_시연영상.mp4), 1920×1080, 89MB)
-- APK: [`apk/ValueLink_밸류링크_release.apk`](apk/ValueLink_밸류링크_release.apk) (Pleos Connect 에뮬레이터 2.1.0, 2560×1440, API 34에서 검증)
+- APK: [`apk/이소운_밸류링크_release.apk`](apk/이소운_밸류링크_release.apk) (Pleos Connect 에뮬레이터 2.1.0, 2560×1440, API 34에서 검증)
 - 현대자동차그룹 차량용 앱 개발 공모전 출품작
 
 ## 무엇을 하나요
@@ -83,10 +83,10 @@ cd web && npm run build && cd ../android && ./gradlew assembleRelease   # web/di
 | 에뮬레이터 | Pleos Connect 에뮬레이터 2.1.0 (기기 프로필 `Pleos_Connect_v2_0`) |
 | 시스템 이미지 | Android 14 (API 34), `pleos-automotive`, arm64-v8a |
 | 화면 규격 | 2560 × 1440 px, 160 dpi (가로) |
-| APK | [`apk/ValueLink_밸류링크_release.apk`](apk/ValueLink_밸류링크_release.apk) (release 서명) |
+| APK | [`apk/이소운_밸류링크_release.apk`](apk/이소운_밸류링크_release.apk) (release 서명) |
 
 ```bash
-adb install -r "apk/ValueLink_밸류링크_release.apk"
+adb install -r "apk/이소운_밸류링크_release.apk"
 adb shell am start --user 10 -n com.carvalue.app/.MainActivity   # 또는 독의 밸류링크 아이콘
 ```
 
