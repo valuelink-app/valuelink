@@ -4,6 +4,7 @@
 Pleos Connect 위에서 차가 스스로 가치를 **지키고**, **증명하고**, 다음 차와 다음 주인에게 **잇습니다**.
 
 - 웹 라이브 데모: https://valuelink-app.github.io/valuelink/ (랜딩 · `#/console` 시연 콘솔 · `#/car` 차량 앱 · `#/passport` 차량 여권 · `#/fleet` 플릿)
+- 시연 영상 (4분 50초): https://valuelink-app.github.io/valuelink/video/
 - APK: [`apk/ValueLink_밸류링크_release.apk`](apk/ValueLink_밸류링크_release.apk) (Pleos Connect 에뮬레이터 2.1.0, 2560×1440, API 34에서 검증)
 - 현대자동차그룹 차량용 앱 개발 공모전 출품작
 
